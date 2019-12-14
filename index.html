@@ -1,0 +1,551 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">    
+        
+    </head>
+    <body>
+        <section class="wrapper">
+            <div class="leftSec">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="search">
+                                <div class="inputWithIcon">
+                                    <input type="text" placeholder="Search" >
+                                    <i class="fas fa-search" aria-hidden="true"></i>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+
+               <div class="tab">
+                    <div class="tablinks mb-2" onclick="chat(event, 'person1')" id="defaultOpen">
+                        <div class="container-fluid">
+                            <div class="row py-2">
+                                <div class="col-3 img d-flex justify-content-end">
+                                    <img src="imgs/1.png" class="online">
+                                </div>
+                                <div class="col-6 message">
+                                    <h3 class="mb-1">Hassan</h3>
+                                    <p>I tried to call you yestarday</p>
+                                </div>
+                                <div class="col-3 time d-flex justify-content-end align-items-end">
+                                    <p>12:00 am</p>
+                                </div>
+    
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tablinks mb-2" onclick="chat(event, 'person2')">
+                        <div class="container-fluid">
+                            <div class="row py-2">
+                                <div class="col-3 img d-flex justify-content-end">
+                                    <img src="imgs/4.png">
+                                </div>
+                                <div class="col-6 message">
+                                    <h3 class="mb-1">Hisham</h3>
+                                    <p>are you here?</p>
+                                </div>
+                                <div class="col-3 time d-flex justify-content-end align-items-end">
+                                    <p>12:00 am</p>
+                                </div>
+    
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tablinks mb-2" onclick="chat(event, 'person3')">
+                        <div class="container-fluid">
+                            <div class="row py-2">
+                                <div class="col-3 img d-flex justify-content-end">
+                                    <img src="imgs/5.png">
+                                </div>
+                                <div class="col-6 message">
+                                    <h3 class="mb-1">John</h3>
+                                    <p>I tried to call you yestarday</p>
+                                </div>
+                                <div class="col-3 time d-flex justify-content-end align-items-end">
+                                    <p>12:00 am</p>
+                                </div>
+    
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tablinks mb-2" onclick="chat(event, 'person4')">
+                            <div class="container-fluid">
+                                <div class="row py-2">
+                                    <div class="col-3 img d-flex justify-content-end">
+                                        <img src="imgs/2.png">
+                                    </div>
+                                    <div class="col-6 message">
+                                        <h3 class="mb-1">Mohamed Ali</h3>
+                                        <p>I tried to call you yestarday</p>
+                                    </div>
+                                    <div class="col-3 time d-flex justify-content-end align-items-end">
+                                        <p>12:00 am</p>
+                                    </div>
+        
+                                </div>
+                            </div>
+                    </div>
+                    <div class="tablinks mb-2" onclick="chat(event, 'person5')">
+                            <div class="container-fluid">
+                                <div class="row py-2">
+                                    <div class="col-3 img d-flex justify-content-end">
+                                        <img src="imgs/3.png">
+                                    </div>
+                                    <div class="col-6 message">
+                                        <h3 class="mb-1">Mohsn</h3>
+                                        <p>I tried to call you yestarday</p>
+                                    </div>
+                                    <div class="col-3 time d-flex justify-content-end align-items-end">
+                                        <p>12:00 am</p>
+                                    </div>
+        
+                                </div>
+                            </div>
+                    </div>
+                    <div class="tablinks mb-2" onclick="chat(event, 'person6')">
+                            <div class="container-fluid">
+                                <div class="row py-2">
+                                    <div class="col-3 img d-flex justify-content-end">
+                                        <img src="imgs/6.png">
+                                    </div>
+                                    <div class="col-6 message">
+                                        <h3 class="mb-1">Omar</h3>
+                                        <p>I tried to call you yestarday</p>
+                                    </div>
+                                    <div class="col-3 time d-flex justify-content-end align-items-end">
+                                        <p>12:00 am</p>
+                                    </div>
+        
+                                </div>
+                            </div>
+                    </div>
+                    <div class="tablinks mb-2" onclick="chat(event, 'person7')">
+                            <div class="container-fluid">
+                                <div class="row py-2">
+                                    <div class="col-3 img d-flex justify-content-end">
+                                        <img src="imgs/1.png">
+                                    </div>
+                                    <div class="col-6 message">
+                                        <h3 class="mb-1">Sherif</h3>
+                                        <p>I tried to call you yestarday</p>
+                                    </div>
+                                    <div class="col-3 time d-flex justify-content-end align-items-end">
+                                        <p>12:00 am</p>
+                                    </div>
+        
+                                </div>
+                            </div>
+                    </div>
+                    <div class="tablinks mb-2" onclick="chat(event, 'person8')">
+                            <div class="container-fluid">
+                                <div class="row py-2">
+                                    <div class="col-3 img d-flex justify-content-end">
+                                        <img src="imgs/5.png">
+                                    </div>
+                                    <div class="col-6 message">
+                                        <h3 class="mb-1">Yasser</h3>
+                                        <p>I tried to call you yestarday</p>
+                                    </div>
+                                    <div class="col-3 time d-flex justify-content-end align-items-end">
+                                        <p>12:00 am</p>
+                                    </div>
+        
+                                </div>
+                            </div>
+                    </div>
+                    <div class="tablinks mb-2" onclick="chat(event, 'person9')">
+                            <div class="container-fluid">
+                                <div class="row py-2">
+                                    <div class="col-3 img d-flex justify-content-end">
+                                        <img src="imgs/2.png">
+                                    </div>
+                                    <div class="col-6 message">
+                                        <h3 class="mb-1">Ali</h3>
+                                        <p>I tried to call you yestarday</p>
+                                    </div>
+                                    <div class="col-3 time d-flex justify-content-end align-items-end">
+                                        <p>12:00 am</p>
+                                    </div>
+        
+                                </div>
+                            </div>
+                    </div>
+                    <div class="tablinks mb-2" onclick="chat(event, 'person10')">
+                            <div class="container-fluid">
+                                <div class="row py-2">
+                                    <div class="col-3 img d-flex justify-content-end">
+                                        <img src="imgs/3.png">
+                                    </div>
+                                    <div class="col-6 message">
+                                        <h3 class="mb-1">Tom</h3>
+                                        <p>I tried to call you yestarday</p>
+                                    </div>
+                                    <div class="col-3 time d-flex justify-content-end align-items-end">
+                                        <p>12:00 am</p>
+                                    </div>
+        
+                                </div>
+                            </div>
+                    </div>
+            </div>
+            </div>
+            <div class="rightSec">
+                <div id="person1" class="tabcontent">
+                    <div class="header">
+                        <div class="container-fluid py-3">
+                            <div class="row">
+                                <div class="col-1">
+                                    <img src="imgs/1.png">
+                                </div>
+                                <div class="col-10">
+                                    <h3 class="name">Hassan</h3>
+                                    <p class="status">no pain...no gain</p>
+                                    <p class="case">online</p>      
+                                </div>
+                                <div class="col-1 d-flex justify-content-end align-items-center">
+                                    <div class="btn-group dropleft">
+                                        <i class="fas fa-ellipsis-v"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></i>
+                                        <!-- <button type="button" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                           
+                                        </button> -->
+                                        <div class="dropdown-menu">
+                                            <ul class="pl-3">
+                                                <li class="pb-3 pt-2">Mute</li>
+                                                <li class="pb-3">Archive</li>
+                                                <li class="pb-2">Delete</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                            </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div id="messages">
+                    </div>
+            
+                    <div class="footer">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="input-container pb-3">
+                                        <input class="input-field" type="text" placeholder="Type Your Message ..." name="message" id="textBox">
+                                        <i class="fas fa-paper-plane" id="btn-send"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                <div id="person2" class="tabcontent">
+                    <div class="header">
+                        <div class="container-fluid py-3">
+                            <div class="row">
+                                <div class="col-1">
+                                    <img src="imgs/4.png">
+                                </div>
+                                <div class="col-10">
+                                    <h3 class="name">Hisham</h3>
+                                    <p class="status">no pain...no gain</p>
+                                    <p class="case">online</p>      
+                                </div>
+                                <div class="col-1 d-flex justify-content-end align-items-center">
+                                    <div class="btn-group dropleft">
+                                        <i class="fas fa-ellipsis-v"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></i>
+                                        <!-- <button type="button" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                           
+                                        </button> -->
+                                        <div class="dropdown-menu">
+                                            <ul class="pl-3">
+                                                <li class="pb-3 pt-2">Mute</li>
+                                                <li class="pb-3">Archive</li>
+                                                <li class="pb-2">Delete</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                            </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="person3" class="tabcontent">
+                    <div class="header">
+                        <div class="container-fluid py-3">
+                            <div class="row">
+                                <div class="col-1">
+                                    <img src="imgs/5.png">
+                                </div>
+                                <div class="col-10">
+                                    <h3 class="name">john</h3>
+                                    <p class="status">no pain...no gain</p>
+                                    <p class="case">online</p>      
+                                </div>
+                                <div class="col-1 d-flex justify-content-end align-items-center">
+                                    <div class="btn-group dropleft">
+                                        <i class="fas fa-ellipsis-v"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></i>
+                                        <!-- <button type="button" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                           
+                                        </button> -->
+                                        <div class="dropdown-menu">
+                                            <ul class="pl-3">
+                                                <li class="pb-3 pt-2">Mute</li>
+                                                <li class="pb-3">Archive</li>
+                                                <li class="pb-2">Delete</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                            </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+                <div id="person4" class="tabcontent">
+                    <div class="header">
+                        <div class="container-fluid py-3">
+                            <div class="row">
+                                <div class="col-1">
+                                    <img src="imgs/2.png">
+                                </div>
+                                <div class="col-10">
+                                    <h3 class="name">Mohamed Ali</h3>
+                                    <p class="status">no pain...no gain</p>
+                                    <p class="case">online</p>      
+                                </div>
+                                <div class="col-1 d-flex justify-content-end align-items-center">
+                                    <div class="btn-group dropleft">
+                                        <i class="fas fa-ellipsis-v"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></i>
+                                        <!-- <button type="button" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                           
+                                        </button> -->
+                                        <div class="dropdown-menu">
+                                            <ul class="pl-3">
+                                                <li class="pb-3 pt-2">Mute</li>
+                                                <li class="pb-3">Archive</li>
+                                                <li class="pb-2">Delete</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                            </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+                <div id="person5" class="tabcontent">
+                    <div class="header">
+                        <div class="container-fluid py-3">
+                            <div class="row">
+                                <div class="col-1">
+                                    <img src="imgs/3.png">
+                                </div>
+                                <div class="col-10">
+                                    <h3 class="name">Mohsn</h3>
+                                    <p class="status">no pain...no gain</p>
+                                    <p class="case">online</p>      
+                                </div>
+                                <div class="col-1 d-flex justify-content-end align-items-center">
+                                    <div class="btn-group dropleft">
+                                        <i class="fas fa-ellipsis-v"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></i>
+                                        <!-- <button type="button" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                           
+                                        </button> -->
+                                        <div class="dropdown-menu">
+                                            <ul class="pl-3">
+                                                <li class="pb-3 pt-2">Mute</li>
+                                                <li class="pb-3">Archive</li>
+                                                <li class="pb-2">Delete</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                            </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+                <div id="person6" class="tabcontent">
+                    <div class="header">
+                        <div class="container-fluid py-3">
+                            <div class="row">
+                                <div class="col-1">
+                                    <img src="imgs/6.png">
+                                </div>
+                                <div class="col-10">
+                                    <h3 class="name">Omar</h3>
+                                    <p class="status">no pain...no gain</p>
+                                    <p class="case">online</p>      
+                                </div>
+                                <div class="col-1 d-flex justify-content-end align-items-center">
+                                    <div class="btn-group dropleft">
+                                        <i class="fas fa-ellipsis-v"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></i>
+                                        <!-- <button type="button" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                           
+                                        </button> -->
+                                        <div class="dropdown-menu">
+                                            <ul class="pl-3">
+                                                <li class="pb-3 pt-2">Mute</li>
+                                                <li class="pb-3">Archive</li>
+                                                <li class="pb-2">Delete</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                            </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+                <div id="person7" class="tabcontent">
+                    <div class="header">
+                        <div class="container-fluid py-3">
+                            <div class="row">
+                                <div class="col-1">
+                                    <img src="imgs/1.png">
+                                </div>
+                                <div class="col-10">
+                                    <h3 class="name">Sherif</h3>
+                                    <p class="status">no pain...no gain</p>
+                                    <p class="case">online</p>      
+                                </div>
+                                <div class="col-1 d-flex justify-content-end align-items-center">
+                                    <div class="btn-group dropleft">
+                                        <i class="fas fa-ellipsis-v"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></i>
+                                        <!-- <button type="button" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                           
+                                        </button> -->
+                                        <div class="dropdown-menu">
+                                            <ul class="pl-3">
+                                                <li class="pb-3 pt-2">Mute</li>
+                                                <li class="pb-3">Archive</li>
+                                                <li class="pb-2">Delete</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                            </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+                <div id="person8" class="tabcontent">
+                    <div class="header">
+                        <div class="container-fluid py-3">
+                            <div class="row">
+                                <div class="col-1">
+                                    <img src="imgs/5.png">
+                                </div>
+                                <div class="col-10">
+                                    <h3 class="name">Yasser</h3>
+                                    <p class="status">no pain...no gain</p>
+                                    <p class="case">online</p>      
+                                </div>
+                                <div class="col-1 d-flex justify-content-end align-items-center">
+                                    <div class="btn-group dropleft">
+                                        <i class="fas fa-ellipsis-v"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></i>
+                                        <!-- <button type="button" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                           
+                                        </button> -->
+                                        <div class="dropdown-menu">
+                                            <ul class="pl-3">
+                                                <li class="pb-3 pt-2">Mute</li>
+                                                <li class="pb-3">Archive</li>
+                                                <li class="pb-2">Delete</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                            </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+                <div id="person9" class="tabcontent">
+                        
+                    <div class="header">
+                        <div class="container-fluid py-3">
+                            <div class="row">
+                                <div class="col-1">
+                                    <img src="imgs/2.png">
+                                </div>
+                                <div class="col-10">
+                                    <h3 class="name">Ali</h3>
+                                    <p class="status">no pain...no gain</p>
+                                    <p class="case">online</p>      
+                                </div>
+                                <div class="col-1 d-flex justify-content-end align-items-center">
+                                    <div class="btn-group dropleft">
+                                        <i class="fas fa-ellipsis-v"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></i>
+                                        <!-- <button type="button" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                           
+                                        </button> -->
+                                        <div class="dropdown-menu">
+                                            <ul class="pl-3">
+                                                <li class="pb-3 pt-2">Mute</li>
+                                                <li class="pb-3">Archive</li>
+                                                <li class="pb-2">Delete</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                            </div>
+
+                            </div>
+                        </div>
+                    </div>                </div> 
+                <div id="person10" class="tabcontent">
+                    <div class="header">
+                        <div class="container-fluid py-3">
+                            <div class="row">
+                                <div class="col-1">
+                                    <img src="imgs/3.png">
+                                </div>
+                                <div class="col-10">
+                                    <h3 class="name">Tom</h3>
+                                    <p class="status">no pain...no gain</p>
+                                    <p class="case">online</p>      
+                                </div>
+                                <div class="col-1 d-flex justify-content-end align-items-center">
+                                    <div class="btn-group dropleft">
+                                        <i class="fas fa-ellipsis-v"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></i>
+                                        <!-- <button type="button" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                           
+                                        </button> -->
+                                        <div class="dropdown-menu">
+                                            <ul class="pl-3">
+                                                <li class="pb-3 pt-2">Mute</li>
+                                                <li class="pb-3">Archive</li>
+                                                <li class="pb-2">Delete</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                            </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+               
+               
+            </div>
+
+     
+        </section>
+        </script>
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/script.js"></script>
+
+    </body>
+</html>
